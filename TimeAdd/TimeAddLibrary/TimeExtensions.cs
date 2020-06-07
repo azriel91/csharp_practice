@@ -16,7 +16,7 @@ namespace TimeAddLibrary
         public static String HumanReadable(this TimeSpan timeSpan)
         {
             return $"{timeSpan.Hours} hours {timeSpan.Minutes} minutes " +
-            "{timeSpan.Seconds} seconds";
+            $"{timeSpan.Seconds} seconds";
         }
     }
 }
